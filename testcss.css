@@ -1,0 +1,19 @@
+#images {
+    padding: 10px;
+    float: left;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font: 1em sans-serif;
+}
+
+div {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#identity {
+    overflow: auto;
+}
