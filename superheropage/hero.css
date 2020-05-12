@@ -1,0 +1,43 @@
+#movies {
+    text-align: center;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thumnail {
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background-color: white;
+    color: #666;
+    text-align: center;
+}
+
+#mov1 {
+    float: left;
+    margin-left: 70px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#mov2 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#mov3 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#mov4 {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
