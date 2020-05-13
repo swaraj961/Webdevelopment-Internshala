@@ -1,146 +1,169 @@
-#bg {
-    background-image: url("images/bg2.jpg");
-    height: 400px;
-    max-width: 1200px;
-    margin-top: 50px;
-    margin-left: 80px;
-    padding-top: 50px;
-    color: white;
-}
-
-#content {
-    padding: 10px 20px 50px 20px;
-    /* TOP RIGHT BUTTOM LEFT*/
-    max-width: 800px;
-    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-#para {
-    margin-left: 78px;
-    margin-right: 55px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.box {
-    width: 50%;
-    display: inline-block;
-    padding-left: 76px;
-}
-
-.listbox {
-    width: 50%;
-    overflow: hidden;
-}
-
-#movies {
-    text-align: center;
-    font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.thumnail {
-    padding: 30px;
-    display: inline-block;
-    margin-bottom: 30px;
-    border: 1px solid black;
-    background-color: white;
-    color: #666;
-    text-align: center;
-    /*box wasnt working that time */
-}
-
-#mov1 {
-    float: left;
-    margin-left: 70px;
-    margin-right: 20px;
-    text-align: center;
-}
-
-#mov2 {
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-}
-
-#mov3 {
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-}
-
-#mov4 {
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-}
-
-table {
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
-    max-width: 1200px;
-    margin-left: 70px;
-}
-
-td,
-th {
-    padding: 10px;
-    border: 1px solid grey;
-    height: 20px;
-}
-
-td {
-    text-align: start;
-}
-
-th {
-    background-color: lemonchiffon
-}
-
-h1 {
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    display: block;
-    color: #666;
-    /* default link colour change */
-    padding: 14px 16px;
-    text-decoration: none;
-    /* link not underline*/
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    float: right;
-}
-
-.logo {
-    float: left;
-    padding-left: 75px;
-}
-
-#header {
-    padding: 10px 0px;
-    padding-bottom: 80px;
-    padding-right: 35px;
-    /* border-bottom: 2px solid;
+        #bg {
+            background-image: url("images/bg2.jpg");
+            height: 400px;
+            max-width: 1200px;
+            margin-top: 50px;
+            margin-left: 80px;
+            padding-top: 50px;
+            color: white;
+        }
+        
+        #content {
+            padding: 10px 20px 50px 20px;
+            /* TOP RIGHT BUTTOM LEFT*/
+            max-width: 800px;
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        
+        #para {
+            margin-left: 78px;
+            margin-right: 55px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        
+        .box {
+            width: 50%;
+            display: inline-block;
+            padding-left: 76px;
+        }
+        
+        .listbox {
+            width: 50%;
+            overflow: hidden;
+        }
+        
+        #movies {
+            text-align: center;
+            font-weight: bold;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .thumnail {
+            padding: 30px;
+            display: inline-block;
+            margin-bottom: 30px;
+            border: 1px solid black;
+            background-color: white;
+            color: #666;
+            text-align: center;
+            /*box wasnt working that time */
+        }
+        
+        #mov1 {
+            float: left;
+            margin-left: 70px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+        #mov2 {
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+        #mov3 {
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+        #mov4 {
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            max-width: 1200px;
+            margin-left: 70px;
+        }
+        
+        td,
+        th {
+            padding: 10px;
+            border: 1px solid grey;
+            height: 20px;
+        }
+        
+        td {
+            text-align: start;
+        }
+        
+        th {
+            background-color: lemonchiffon
+        }
+        
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            display: block;
+            color: #666;
+            /* default link colour change */
+            padding: 14px 16px;
+            text-decoration: none;
+            /* link not underline*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            float: right;
+        }
+        
+        .logo {
+            float: left;
+            padding-left: 75px;
+        }
+        
+        #header {
+            padding: 10px 0px;
+            padding-bottom: 80px;
+            padding-right: 35px;
+            /* border-bottom: 2px solid;
     border-top: 2px solid;
     border-left: 2px solid;
     border-right: 2px solid; */
-}
-
-form {
-    padding: 50px;
-}
+        }
+        
+        form {
+            /* padding: 50px; */
+            padding-bottom: 50px;
+        }
+        
+        #name,
+        #email {
+            font-size: 20px;
+            padding: 10px 70px;
+        }
+        
+        #submit {
+            font-size: 20px;
+            background-color: grey;
+            margin: 4px -4px;
+            padding: 8px 8px;
+        }
+        
+        #subscribe {
+            font-size: 20px;
+            background-color: #26211f;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            margin: 4px -4px;
+        }
