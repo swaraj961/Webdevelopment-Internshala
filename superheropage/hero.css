@@ -48,6 +48,7 @@
     background-color: white;
     color: #666;
     text-align: center;
+    /*box wasnt working that time */
 }
 
 #mov1 {
@@ -103,4 +104,37 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    color: #666;
+    /* default link colour change */
+    padding: 14px 16px;
+    text-decoration: none;
+    /* link not underline*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float: right;
+}
+
+.logo {
+    float: left;
+    padding-left: 75px;
+}
+
+#header {
+    padding: 10px 0px;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    /* border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid; */
 }
