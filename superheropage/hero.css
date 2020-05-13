@@ -140,3 +140,7 @@ a {
     border-left: 2px solid;
     border-right: 2px solid; */
 }
+
+form {
+    padding: 50px;
+}
