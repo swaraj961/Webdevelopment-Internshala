@@ -17,8 +17,8 @@
 }
 
 #para {
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 78px;
+    margin-right: 55px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -26,7 +26,7 @@
 .box {
     width: 50%;
     display: inline-block;
-    padding-left: 70px;
+    padding-left: 76px;
 }
 
 .listbox {
@@ -83,6 +83,8 @@ table {
     width: 100%;
     border: 1px solid black;
     border-collapse: collapse;
+    max-width: 1200px;
+    margin-left: 70px;
 }
 
 td,
@@ -132,7 +134,7 @@ a {
 #header {
     padding: 10px 0px;
     padding-bottom: 80px;
-    padding-right: 20px;
+    padding-right: 35px;
     /* border-bottom: 2px solid;
     border-top: 2px solid;
     border-left: 2px solid;
