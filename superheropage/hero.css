@@ -99,11 +99,23 @@
         }
         
         th {
-            background-color: lemonchiffon
+            background-color: grey
         }
         
         h1 {
             text-align: center;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        h3 {
+            text-align: start;
             font-weight: bold;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
@@ -166,4 +178,33 @@
             color: white;
             padding: 12px 30px;
             margin: 4px -4px;
+        }
+        /*media quiery*/
+        
+        .container {
+            @media (min-width: 320px) {
+                .container {
+                    width: 320px;
+                }
+            }
+            @media (min-width:481px) {
+                .container {
+                    width: 481px;
+                }
+            }
+            @media (min-width:641px) {
+                .container {
+                    width: 641px;
+                }
+            }
+            @media (min-width:961px) {
+                .container {
+                    width: 961px;
+                }
+            }
+            @media (min-width:1000px) {
+                .container {
+                    width: 1000px;
+                }
+            }
         }
