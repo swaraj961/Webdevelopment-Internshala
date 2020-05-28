@@ -1,13 +1,4 @@
-<?php
-// connecting database cmd
-$con = mysqli_connect('localhost', 'root', '', 'ecommerce',) or die(mysqli_error($con));
-// select query 
-$select_query = ' select id , name , email_id FROM users';
-$select_query_result = mysqli_query($con, $select_query) or die(mysqli_errno($con));
 
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
