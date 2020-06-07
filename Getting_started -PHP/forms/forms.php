@@ -23,8 +23,6 @@
 </head>
 <body>  
 
-
-
     </div>
 
     <div class="container top-mar ">
@@ -33,21 +31,22 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">User Registration</div>
                     <div class="panel-body">
-                        <form method="POST" action="user.php">
+                        <form method="POST" action="user_reg.php">
+                           
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" >
+                            </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input type="email" class="form-control" id="email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" name="name">
                             </div>
                            
                             <div class="form-group">
                                 <label for="phone">Phone</label>
                                 <input type="text" class="form-control" id="phoneno" name="phoneno">
                             </div>
-                            <button type="submit" class="btn btn-primary" value=”registration_submit”>Submit</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
