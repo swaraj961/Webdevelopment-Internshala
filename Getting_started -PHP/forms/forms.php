@@ -1,3 +1,15 @@
+<?php 
+
+session_start();
+if(isset($_SESSION['id'])){
+    echo"hello". $_SESSION['email'];
+} else {
+    echo "hello guest";
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +18,7 @@
     <title> <?php echo "Registration" ?> </title>
 </head>
 <body>
-    <form action="user_reg.php" method="GET">
+    <form action="showdata.php" method="GET">
         Email : <input type="text" placeholder="email" name="email">
         First Name : <input type="text" placeholder="first name" name="fname">
         Last Name : <input type="text" placeholder="last name" name="lname">
